@@ -61,4 +61,4 @@ Contribuições são bem-vindas! Por favor, sinta-se à vontade para submeter um
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está licenciado sob a licença Apache 2.0. Veja o arquivo `LICENSE` para mais detalhes.
