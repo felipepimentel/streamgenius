@@ -1,4 +1,5 @@
 from stream_processor.youtube_processor import process_youtube
+import yt_dlp as youtube_dl
 from stream_processor.spotify_processor import process_spotify
 from stream_processor.transcription import transcribe
 from stream_processor.translation import translate
