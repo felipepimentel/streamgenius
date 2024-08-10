@@ -1,9 +1,9 @@
-from .youtube_processor import process_youtube
-from .spotify_processor import process_spotify
-from .transcription import transcribe
-from .translation import translate
-from .summarization import summarize
-from .enrichment import enrich
+from stream_processor.youtube_processor import process_youtube
+from stream_processor.spotify_processor import process_spotify
+from stream_processor.transcription import transcribe
+from stream_processor.translation import translate
+from stream_processor.summarization import summarize
+from stream_processor.enrichment import enrich
 
 def process_stream(url: str):
     """
