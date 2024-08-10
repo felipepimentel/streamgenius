@@ -1,64 +1,64 @@
 # StreamGenius
 
-StreamGenius é uma ferramenta poderosa para processar conteúdo de streaming do YouTube e Spotify. Ela oferece funcionalidades de transcrição, tradução, resumo e enriquecimento de conteúdo.
+StreamGenius is a powerful tool for processing streaming content from YouTube and Spotify. It offers functionalities for transcription, translation, summarization, and content enrichment.
 
-## Funcionalidades
+## Features
 
-- Processamento de vídeos do YouTube e faixas do Spotify
-- Transcrição de áudio
-- Tradução de texto
-- Resumo de conteúdo
-- Enriquecimento de texto com sinônimos
+- Processing of YouTube videos and Spotify tracks
+- Audio transcription
+- Text translation
+- Content summarization
+- Text enrichment with synonyms
 
-## Requisitos
+## Requirements
 
 - Python 3.8+
-- Poetry para gerenciamento de dependências
+- Poetry for dependency management
 
-## Instalação
+## Installation
 
-1. Clone o repositório:
+1. Clone the repository:
    ```
-   git clone https://github.com/seu-usuario/streamgenius.git
+   git clone https://github.com/your-username/streamgenius.git
    cd streamgenius
    ```
 
-2. Instale as dependências usando Poetry:
+2. Install dependencies using Poetry:
    ```
    poetry install
    ```
 
-## Uso
+## Usage
 
-1. Ative o ambiente virtual do Poetry:
+1. Activate the Poetry virtual environment:
    ```
    poetry shell
    ```
 
-2. Execute o script principal:
+2. Run the main script:
    ```
    python src/stream_processor/main.py
    ```
 
-3. Quando solicitado, insira uma URL do YouTube ou Spotify.
+3. When prompted, enter a YouTube or Spotify URL.
 
-4. O script processará o conteúdo e retornará um dicionário com os resultados de transcrição, tradução, resumo e enriquecimento.
+4. The script will process the content and return a dictionary with the results of transcription, translation, summarization, and enrichment.
 
-## Estrutura do Projeto
+## Project Structure
 
-- `src/stream_processor/`: Contém os módulos principais do projeto
-  - `main.py`: Ponto de entrada principal
-  - `youtube_processor.py`: Processamento de vídeos do YouTube
-  - `spotify_processor.py`: Processamento de faixas do Spotify
-  - `transcription.py`: Transcrição de áudio
-  - `translation.py`: Tradução de texto
-  - `summarization.py`: Resumo de conteúdo
-  - `enrichment.py`: Enriquecimento de texto
+- `src/stream_processor/`: Contains the main project modules
+  - `main.py`: Main entry point
+  - `youtube_processor.py`: YouTube video processing
+  - `spotify_processor.py`: Spotify track processing
+  - `transcription.py`: Audio transcription
+  - `translation.py`: Text translation
+  - `summarization.py`: Content summarization
+  - `enrichment.py`: Text enrichment
 
-## Contribuindo
+## Contributing
 
-Contribuições são bem-vindas! Por favor, sinta-se à vontade para submeter um Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a licença Apache 2.0. Veja o arquivo `LICENSE` para mais detalhes.
+This project is licensed under the Apache 2.0 license. See the `LICENSE` file for more details.
