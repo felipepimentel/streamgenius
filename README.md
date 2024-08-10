@@ -18,27 +18,31 @@ StreamGenius is a powerful tool for processing streaming content from YouTube an
 ## Installation
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/streamgenius.git
-   cd streamgenius
-   ```
+
+    ```bash
+    git clone https://github.com/your-username/streamgenius.git
+    cd streamgenius
+    ```
 
 2. Install dependencies using Poetry:
-   ```
-   poetry install
-   ```
+
+    ```bash
+    poetry install
+    ```
 
 ## Usage
 
 1. Activate the Poetry virtual environment:
-   ```
-   poetry shell
-   ```
+
+    ```bash
+    poetry shell
+    ```
 
 2. Run the main script:
-   ```
-   python src/stream_processor/main.py
-   ```
+
+    ```bash
+    python src/stream_processor/main.py
+    ```
 
 3. When prompted, enter a YouTube or Spotify URL.
 
