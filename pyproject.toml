@@ -1,21 +1,32 @@
 [tool.poetry]
-name = "stream-processor"
+name = "streamgenius"
 version = "0.1.0"
 description = "A project to transcribe, translate, summarize, and enrich streaming content from YouTube and Spotify"
-authors = ["Your Name <you@example.com>"]
+authors = ["Felipe Pimentel <fpimentel88@gmail.com>"]
+packages = [
+    { include = "stream_processor", from = "src" },
+]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-yt-dlp = "^2023.3.4"
-spotipy = "^2.19.0"
-transformers = "^4.18.0"
-torch = "^1.11.0"
-nltk = "^3.7"
-soundfile = "^0.10.3"
+python = ">=3.12,<3.13"  # Alterado para ser compatível com spotdl
+yt-dlp = "^2024.8.6"
+spotipy = "^2.24.0"
+transformers = "^4.44.0"
+soundfile = "^0.12.1"
+openai-whisper = "^20231117"  # Corrigido para o pacote correto do Whisper
+deep-translator = "^1.11.4"
+langdetect = "^1.0.9"
+pydub = "^0.25.1"
+openai = "^1.40.3"
+spotdl = "^4.2.4"  # Adicionando spotdl
 
+tenacity = "^9.0.0"
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+streamgenius = "stream_processor.main:main"

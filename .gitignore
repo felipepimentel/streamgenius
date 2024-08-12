@@ -165,3 +165,23 @@ cython_debug/
 
 *.wav
 poetry.lock
+
+# StreamGenius output
+**/streamgenius_output/
+
+.cursorignore
+
+# Virtual environment
+.venv/
+
+# PyCharm files
+.idea/
+
+# VS Code files
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
