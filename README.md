@@ -16,7 +16,7 @@ StreamGenius is a powerful Python tool for processing streaming content from You
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/streamgenius.git
+   git clone https://github.com/felipepimentel/streamgenius.git
    cd streamgenius
    ```
 
